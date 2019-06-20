@@ -5,7 +5,7 @@ import logo from '../images/logo.png'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-        <img src={logo} alt="The English Bookshop" />
+        <img src={logo} className="logo" alt="The English Bookshop" />
         <div className="content">
             <div className="inner">
 
