@@ -37,16 +37,13 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <p>We are readers with heart. We love our shop and love to welcome people in.</p>
+          <p>Reading is dreaming; a good book opens minds, experiences and souls. We sell mostly paperback fiction but we also have an ever changing stock of children’s books. Our older books line the shelves up the winding staircase and our eclectic collections can sometimes offer real surprises.</p>
+          <p>You’ll find us in St Antonin Noble Val, an exquisite medieval village nestled in a gorge on the banks of the Aveyron just north of Toulouse.</p>
+          <p>When people come to St Antonin they ‘switch off’, it’s a world away from the bustle of everyday life and we like to believe our bookshop can add to that switched off feeling.</p>
+          <p>Come and explore. You’ll find a warm smile and a quirky, rustic charm.</p>
           {close}
         </article>
-        {/* <ul className="icons">
-          <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-          <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-          <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-          <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
-        </ul> */}
-
       </div>
     )
   }
