@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    title: "The English Bookshop | Used bookshop for expats & locals in Saint Antonin Noble Val, France",
+    author: "Laurie Copley",
+    description: "Used bookshop for expats & locals in Saint Antonin Noble Val, France"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
