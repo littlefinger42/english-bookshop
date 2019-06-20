@@ -23,9 +23,11 @@
 		text-align: center;
 
 		> * {
+			margin-top: 3.5rem;
+		}
+		> nav {
 			@include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
 			position: relative;
-			margin-top: 3.5rem;
 
 			&:before {
 				content: '';
@@ -44,20 +46,6 @@
 
 			&:before {
 				display: none;
-			}
-		}
-
-		.logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid _size(border-width) _palette(border);
-			border-radius: 100%;
-
-			.icon {
-				&:before {
-					font-size: 2rem;
-				}
 			}
 		}
 
@@ -87,7 +75,7 @@
 			p {
 				text-transform: uppercase;
 				letter-spacing: _font(letter-spacing);
-				font-size: 0.8rem;
+				margin-bottom: 1rem;
 				line-height: 2;
 			}
 		}
@@ -193,18 +181,6 @@
 				&:before {
 					top: calc(-2rem - 1px);
 					height: calc(2rem + 1px);
-				}
-			}
-
-			.logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
-
-				.icon {
-					&:before {
-						font-size: 1.75rem;
-					}
 				}
 			}
 
