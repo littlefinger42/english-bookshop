@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'The English Bookshop',
+        short_name: 'English Bookshop',
         start_url: '/',
         background_color: '#0f75bc',
         theme_color: '#0f75bc',
