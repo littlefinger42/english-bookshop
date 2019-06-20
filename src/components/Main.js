@@ -16,8 +16,11 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'donate' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Donate your books</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <p>We can’t run our bookshop without you.</p>
+          <p>We rely on readers to pass on their loved books so we can constantly re-stock our shelves and offer our customers true literary treasures. Our generous book donors are the life blood of the shop – without you we just couldn’t keep on raising money.</p>
+          <p>Each summer we pass on our profit to a charity chosen for the exceptional work it does either locally or internationally.</p>
+          <p>So don’t leave those books gathering dust on your shelf – pass them to us to work their magic again.</p>
+          <p><a href="MAILTO:mail@theenglishbookshop.org">mail@theenglishbookshop.org</a></p>
           {close}
         </article>
 
