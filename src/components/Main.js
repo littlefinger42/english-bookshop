@@ -27,10 +27,11 @@ class Main extends React.Component {
         <article id="charity" className={`${this.props.article === 'charity' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Charity</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>This is the heart of The English Bookshop.</p>
+          <p>This is the beating heart of The English Bookshop.</p>
           <p>We give our profit to charity.</p> 
           <p>If reading can raise money for charities supporting people in need then we’re right there.</p>
           <p>Each year we choose a charity our customers will believe in knowing the proceeds after tax from each book they buy is going into action where needed.</p>
+          <p>This year we are supporting Le Croix Rouge (Red Cross) here in the village for the dedicated work they do for people in daily need, for example the foodbank.</p>
           {close}
         </article>
 
@@ -38,9 +39,11 @@ class Main extends React.Component {
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
           <p>We are readers with heart. We love our shop and love to welcome people in.</p>
-          <p>Reading is dreaming; a good book opens minds, experiences and souls. We sell mostly paperback fiction but we also have an ever changing stock of children’s books. Our older books line the shelves up the winding staircase and our eclectic collections can sometimes offer real surprises.</p>
+          <p>Reading is dreaming; a good book opens minds, experiences and souls.</p>
           <p>You’ll find us in St Antonin Noble Val, an exquisite medieval village nestled in a gorge on the banks of the Aveyron just north of Toulouse.</p>
-          <p>When people come to St Antonin they ‘switch off’, it’s a world away from the bustle of everyday life and we like to believe our bookshop can add to that switched off feeling.</p>
+          <p>When people come to St Antonin they switch off; it’s a world away from the bustle of everyday life and we like to believe our bookshop can add to that switched off feeling.</p>
+          <p>Our books, mostly fiction, line the shelves up the winding staircase and our eclectic collections can sometimes offer real surprises.</p>
+          <p>Our children's room will offer smiles to all ages</p>
           <p>Come and explore. You’ll find a warm smile and a quirky, rustic charm.</p>
           {close}
         </article>
