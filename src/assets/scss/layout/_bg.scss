@@ -47,10 +47,13 @@
 				'filter #{_duration(article)} ease-in-out'
 			));
 			background-image:		url('../../images/bg.jpg');
-			background-position:	center;
+			background-position:	bottom -100px right 0px;
 			background-size:		cover;
 			background-repeat:		no-repeat;
 			z-index: 1;
+			@include breakpoint(medium) { 
+				background-position:	center right;
+			}
 		}
 
 		.body.is-article-visible & {
