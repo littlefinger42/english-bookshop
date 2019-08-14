@@ -135,7 +135,7 @@ class Main extends React.Component {
                 <td style={{ padding: 0 }}>0930 till 1330</td>
               </tr>
             </table>
-            <strong>May till September</strong>
+            <strong>June till September</strong>
           </p>
           {close}
         </article>
