@@ -123,6 +123,20 @@ class Main extends React.Component {
             Come and explore. You’ll find a warm smile and a quirky, rustic
             charm.
           </p>
+          <p>
+            <u>Opening Times</u>
+            <table>
+              <tr>
+                <td style={{ padding: 0 }}>Wednesday to Saturday</td>
+                <td style={{ padding: 0 }}>1000 till 1300, 1500 till 1800</td>
+              </tr>
+              <tr>
+                <td style={{ padding: 0 }}>Sunday</td>
+                <td style={{ padding: 0 }}>0930 till 1330</td>
+              </tr>
+            </table>
+            <strong>May till September</strong>
+          </p>
           {close}
         </article>
       </div>
