@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "The English Bookshop | Used bookshop for expats & locals in Saint Antonin Noble Val, France",
-    author: "Laurie Copley",
-    description: "Used bookshop for expats & locals in Saint Antonin Noble Val, France"
+    title:
+      'The English Bookshop | Used bookshop in Saint Antonin Noble Val, France',
+    author: 'Laurie Copley',
+    keywords: 'english, bookshop, st antonin, used, second-hand',
+    description: 'Used bookshop in Saint Antonin Noble Val, France',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +21,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }
